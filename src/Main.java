@@ -6,7 +6,7 @@ public class Main {
         try {
             q = new Quadrato(5.5);
             c = new Cerchio(8);
-            t = new Triangolo(new double[]{3, 3, 4});
+            t = new Triangolo(new double[]{3, 3, 3});
 
             System.out.println("Area q = " + q.area());
             System.out.println("Perimetro t = " + t.perimetro());
@@ -14,6 +14,7 @@ public class Main {
             System.out.println("Perimetro c = " + c.perimetro());
             System.out.println("Area t = " + t.area());
             System.out.println("Perimetro t = " + t.perimetro());
+            System.out.println("Tipo t = " + t.getTipo());
         }
         catch(Exception e) {
             System.out.print(e.getMessage());
